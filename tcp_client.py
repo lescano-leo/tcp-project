@@ -12,11 +12,11 @@ def main():
 
     try:
         while msg != '3':
-            msg = input('Escolha sua opção:\n1. Enviar mensagem\n2. Mostrar um Macaco\n3. Encerrar conexão\n')
+            msg = input('Escolha sua opção:\n1. Enviar mensagem\n2. Mostrar um Mario\n3. Encerrar conexão\n')
             if msg == '1':
                 msg2 = str.encode(input('Informe sua mensagem:'))
             elif msg == '2':
-                msg2 = str.encode('Macaco')
+                msg2 = str.encode('Mario')
             elif msg == '3':
                 msg2 = str.encode('ENCERRAR')
                 c.sendall(msg2)
